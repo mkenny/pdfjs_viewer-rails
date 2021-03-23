@@ -1886,7 +1886,7 @@ var PDFViewerApplication = {
 };
 var validateFileURL = void 0;
 {
-  var HOSTED_VIEWER_ORIGINS = ['null', 'https://*.beebop-staging.app', 'https://*.beebop.app'];
+  var HOSTED_VIEWER_ORIGINS = ['null', 'http://*.virtual.local:3000', 'https://*.beebop-staging.app', 'https://*.beebop.app'];
   validateFileURL = function validateFileURL(file) {
     if (file === undefined) {
       return;
