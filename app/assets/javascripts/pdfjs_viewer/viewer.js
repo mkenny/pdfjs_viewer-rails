@@ -1886,7 +1886,7 @@ var PDFViewerApplication = {
 };
 var validateFileURL = void 0;
 {
-  var HOSTED_VIEWER_ORIGINS = ['null', 'http://tileyard.virtual.local:3000/', 'https://unity.beebop-staging.app/'];
+  var HOSTED_VIEWER_ORIGINS = ['null', 'http://tileyard.virtual.local:3000/pdfjs/full', 'https://*.beebop-staging.app/pdfjs/full'];
   console.log(window.location.href);
   validateFileURL = function validateFileURL(file) {
     if (file === undefined) {
