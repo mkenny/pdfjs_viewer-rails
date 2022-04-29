@@ -1886,7 +1886,7 @@ var PDFViewerApplication = {
 };
 var validateFileURL = void 0;
 {
-  var HOSTED_VIEWER_ORIGINS = ['null', 'tileyard.virtual.local:3000'];
+  var HOSTED_VIEWER_ORIGINS = ['null', 'http://tileyard.virtual.local:3000'];
   validateFileURL = function validateFileURL(file) {
     if (file === undefined) {
       return;
