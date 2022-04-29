@@ -1886,7 +1886,7 @@ var PDFViewerApplication = {
 };
 var validateFileURL = void 0;
 {
-  var HOSTED_VIEWER_ORIGINS = ['null', 'http://tileyard.virtual.local:3000'];
+  var HOSTED_VIEWER_ORIGINS = ['null', 'http://tileyard.virtual.local:3000/'];
   validateFileURL = function validateFileURL(file) {
     if (file === undefined) {
       return;
@@ -1898,7 +1898,7 @@ var validateFileURL = void 0;
       }
       var fileOrigin = new URL(file, window.location.href).origin;
       if (fileOrigin !== viewerOrigin) {
-        throw new Error('ffffile origin does not match viewer\'ssss');
+        throw new Error('mmmfile origin does not match viewer\'ssss');
       }
     } catch (ex) {
       var message = ex && ex.message;
